@@ -1,0 +1,38 @@
+.indi{
+    
+    border-width: 2px;
+    margin: auto;
+    width: 197px;
+    padding-left: 2%;
+    border: solid;
+    
+    cursor: pointer;
+    
+}
+.none{
+    
+    border-width: 2px;
+    margin: auto;
+    width: 197px;
+    padding-left: 2%;
+    
+    cursor: pointer;
+    
+}
+
+
+.datas{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+
+}
+.head{
+    height: 250px;
+    text-align: center;
+        
+}
+.select{
+    margin-top: 10%;
+}
