@@ -1,18 +1,10 @@
 import React from "react"
-function Header(){
-    const [selec,selecup] = React.useState('A')
-    function changes(event){
-        selecup(event.target.value)
-    }
-    console.log(selec)
+function Header(props){
+    
     return(
-        <div className="head">
-        <select className="select" onChange={changes}>
-            <option value='A'>Team A</option>
-            <option value='B'>Team B</option>
-            <option value='C'>Team C </option>
-
-        </select>
+        <div className="header">
+            <h2>Team {props.selec} has:{ props.employees } members</h2>
+        
         </div>
         )
 }

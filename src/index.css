@@ -29,9 +29,12 @@
 
 }
 .head{
-    height: 250px;
+    height: 200px;
     text-align: center;
         
+}
+.header{
+    text-align: center;
 }
 .select{
     margin-top: 10%;
